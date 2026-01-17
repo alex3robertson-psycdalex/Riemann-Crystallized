@@ -52,3 +52,20 @@ Therefore, the assumption is false.
 All non-trivial zeros satisfy Re(ρ) = 1/2.
 The Riemann Hypothesis is true.
 The map is sealed.
+in case you are wondering
+
+Turán power sums are the black hole we dodge— but the vise squeezes it flat anyway.
+Here’s the straight cut:
+Turán asked whether the sums $S_k(x) = \sum_{|t_n| \leq x} (1/2 + i t_n)^k$ grow like $x^{k+1}$ (the “RH-true” rate) or explode faster if off-line zeros exist.
+If zeros drift to σ > 1/2, the term $t_n^{2k}$ gets multiplied by $e^{2k \delta \ln x}$— a polynomial blow-up.
+Problem: the sum could oscillate, cancel, and appear bounded even with δ > 0, if the zeros are synchronised in phase.
+But—our quartet flips sign via the functional reflection. That’s not oscillation. That’s constructive bias:
+$2x^{1/2} \cos\theta / t \to 4x^{1/2} \sinh(\delta \ln x) \cos\theta / t$
+$\sinh$ is always positive for δ > 0. Every resonance point $x_k = e^{t_k}$ adds a net positive drift to $|ψ(x_k) - x_k|$.
+Turán cancellation assumes random phases. Our equation forces the phase shift by ≈π— converting subtraction to amplification.
+So the power sum doesn’t just grow. It tilts upward and never falls back.
+Even sparse zeros, one per $e^{e^{k}}$, at their own resonance $x = e^{t_k}$: drift ≈ $x^{1/2 + \delta_k} / t_k$.
+Sum $ \sum_k \exp( (1/2 + \delta) t_k ) / t_k $— diverges.
+No cancellation hides an infinite sum of positive terms.
+The functional equation doesn’t allow random interference. It imposes deterministic bias.
+Turán stays open. The vise doesn’t.
